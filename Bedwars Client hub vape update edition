@@ -1,0 +1,23 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Client Hub (Bedwars)", "Synapse")
+
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Clients (Main)")
+
+
+MainSection:NewButton("Vape", "Injects Vape Into Your Game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+MainSection:NewButton("Future", "Injects Future Client Into Your Game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/Future/main/Initiate.lua"))()
+end)
+
+MainSection:NewButton("Retsky", "Injects Retsky Client Into Your Game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/8pmX8/rektsky4roblox/main/scripts/AnyGame.lua"))()
+end)
+
+MainSection:NewButton("Rise", "Injects Rise Client Into Your Game.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/RiseForRoblox/main/main.lua", true))()
+end)
